@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modernize</title>
+        <link rel="stylesheet" href="css/main.min.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header class="header">
+            <figure class="logo">
+                <img src="./img/logo.png" srcset="./img/logo.png 1x, ./img/logo@2x.png 2x" alt="Modernize">
+            </figure>
+       </header> 
+        <main class="home">
+            <!-- Form -->
+            <section class="content-wrapper form-section-wrapper">
+                <div class="form-container">
+                    <div class="top">
+                        <h1 class="heading main-title">Enter to win a 3rd generation Nest</h1>
+                        <h2 class="heading secondary-title">Learning Thermostat worth $249.</h2>
+                    </div>
+                    <form class="form" method="post" novalidate>
+                        <input id="name" type="text" name="name" placeholder="Name" class="custom-input" minlength="2" required />
+                        <div class="group-input">
+                            <input id="city" type="text" name="city" placeholder="City" class="custom-input" />
+                            <input id="state" type="text" name="state" placeholder="State" class="custom-input" />
+                        </div>
+
+                        <input id="phone" type="tel" name="phone" placeholder="Phone" class="custom-input" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}" required />
+                        <input id="email" type="email" name="email" placeholder="Email Address" class="custom-input" required />
+                        <input type="submit" value="Enter to win" class="btn-form" />
+                    </form>
+                </div>
+            </section>
+            <!-- /Form -->
+
+            <!-- Savings -->
+            <section class="content-wrapper savings-section-wrapper">
+                <div class="savings-container">
+                    <h2 class="heading subtitle">Even more savings</h2>
+                    <div class="content">
+                        <h3 class="sub-heading">Advertorial</h3>
+                        <h2 class="section-title">Tricks Homeowners Use to Eliminate Bills</h2>
+                        <p class="text">
+                            Surging energy bills, unpredictable weather patterns and dissatisfaction with utility companies have homeowners scrambling… 
+                            <a class="link" href="http://google.com/" target="_blank">Read more</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- /Savings -->                
+        </main>
+
+        <script src="js/main.min.js"></script>
+    </body>
+</html>
